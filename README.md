@@ -1,9 +1,19 @@
 # 🎨 Ticketstore App for concerts
 
-[![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat-square&logo=vue.js)](https://vuejs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
-[![Vite](https://img.shields.io/badge/Vite-4.x-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<p>
+  <a href="https://vuejs.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=for-the-badge&logo=vue.js" alt="Vue.js" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); margin-right: 10px;">
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Tailwind%20CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); margin-right: 10px;">
+  </a>
+  <a href="https://vitejs.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Vite-4.x-646CFF?style=for-the-badge&logo=vite" alt="Vite" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); margin-right: 10px;">
+  </a>
+  <a href="/LICENSE" target="_blank">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);">
+  </a>
+</p>
 
 This project showcases a modern, responsive frontend built with Vue.js and styled with Tailwind CSS, offering a sleek user interface for a concert ticket booking application.
 
@@ -14,9 +24,8 @@ This project showcases a modern, responsive frontend built with Vue.js and style
 3. [Quick Start](#-quick-start)
 4. [Project Structure](#-project-structure)
 5. [Customization](#-customization)
-6. [Testing](#-testing)
-7. [Contributing](#-contributing)
-8. [License](#-license)
+6. [Contributing](#-contributing)
+7. [License](#-license)
 
 ## 🚀 Main Features
 
@@ -197,4 +206,4 @@ Contributions are welcome!
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](/LICENSE).
