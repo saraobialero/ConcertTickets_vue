@@ -134,27 +134,37 @@ npm run build
 ```
 src/
 ├── assets/
+├── main.css
 ├── components/
 │   ├── AnimatedMenuIcon.vue
 │   ├── CardOrder.vue
-│   └── PaymentForm.vue
+│   ├── Footer.vue
+│   ├── Header.vue
+│   ├── PaymentForm.vue
+│   └── PersonalDataTable.vue
 ├── composables/
 │   └── userAuth.js
 ├── layouts/
 │   ├── DefaultLayout.vue
 │   └── NoHeaderFooterLayout.vue
-├── pages/
-│   ├── Home.vue
-│   ├── Login.vue
-│   └── Orders.vue
 ├── router/
 │   └── index.js
 ├── services/
 │   ├── AuthService.js
-│   └── OrderService.js
-├── styles/
-└── utils/
-    └── api.js
+│   ├── OrderService.js
+│   ├── ReplyService.js
+│   └── UserService.js
+├── views/
+│   ├── Forbidden.vue
+│   ├── Home.vue
+│   ├── Login.vue
+│   ├── Orders.vue
+│   ├── Page404.vue
+│   ├── ReplyDetail.vue
+│   └── Signup.vue
+└── api.js
+└── App.vue
+└── main.js
 ```
 
 ## 🔐 Authentication and API Calls
@@ -183,7 +193,7 @@ Tailwind CSS can be customized in the `tailwind.config.js` file. Add your own co
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+Contributions are welcome!
 
 ## 📄 License
 

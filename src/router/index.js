@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import Login from '../views/Login.vue';
-import Signin from '@/views/Signin.vue';
+import Signup from '@/views/Signup.vue';
 import Orders from '../views/Orders.vue';
 import ReplyDetail from '@/views/ReplyDetail.vue';
 import Forbidden from '../views/Forbidden.vue';
@@ -19,9 +19,9 @@ const routes = [
     meta: { layout: 'NoHeaderFooterLayout' }, // Layout per la rotta principale
   },
   {
-    path: '/sign-in',
-    name: 'Signin',
-    component: Signin,
+    path: '/signup',
+    name: 'Signup',
+    component: Signup,
     meta: { layout: 'NoHeaderFooterLayout' },
   },
   {
