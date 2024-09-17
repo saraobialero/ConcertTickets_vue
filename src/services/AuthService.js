@@ -26,7 +26,7 @@ class AuthService {
 
   async signin(data) {
     try {
-      const response = await axiosIstance.post('auth/sign-in', data);
+      const response = await axiosIstance.post('auth/signup', data);
       if (response.data && response.data.data) {
         const { access_token: accessToken, refresh_token: refreshToken } =
           response.data.data;

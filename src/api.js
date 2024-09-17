@@ -13,7 +13,7 @@ const instance = axios.create({
 instance.interceptors.request.use(
   async (config) => {
     // Skip token validation for login and sign-in requests
-    if (config.url === 'auth/login' || config.url === 'auth/sign-in') {
+    if (config.url === 'auth/login' || config.url === 'auth/signup') {
       return config;
     }
 

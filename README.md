@@ -134,7 +134,7 @@ Make sure to set up and run the backend alongside this frontend for full functio
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-frontend-repo.git
+git clone https://github.com/saraobialero/Vue3-TailwindCSS_Concerts-TicketStore-App.git
 cd your-frontend-repo
 
 # Install dependencies
