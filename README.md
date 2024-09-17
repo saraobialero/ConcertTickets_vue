@@ -1,19 +1,9 @@
 # 🎤 Ticketstore App for concerts
 
-<p>
-  <a href="https://vuejs.org/" target="_blank">
-    <img src="https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=for-the-badge&logo=vue.js" alt="Vue.js" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); margin-right: 10px;">
-  </a>
-  <a href="https://tailwindcss.com/" target="_blank">
-    <img src="https://img.shields.io/badge/Tailwind%20CSS-3.x-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); margin-right: 10px;">
-  </a>
-  <a href="https://vitejs.dev/" target="_blank">
-    <img src="https://img.shields.io/badge/Vite-4.x-646CFF?style=for-the-badge&logo=vite" alt="Vite" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); margin-right: 10px;">
-  </a>
-  <a href="/LICENSE" target="_blank">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="License" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);">
-  </a>
-</p>
+[![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat&logo=vue.js)](https://vuejs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.x-38B2AC?style=flat&logo=tailwind-css)](https://tailwindcss.com/)
+[![Vite](https://img.shields.io/badge/Vite-4.x-646CFF?style=flat&logo=vite)](https://vitejs.dev/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 This project showcases a modern, responsive frontend built with Vue.js and styled with Tailwind CSS, offering a sleek user interface for a concert ticket booking application. It is designed to work seamlessly with a pre-existing Spring Boot backend.
 
@@ -93,39 +83,39 @@ Make sure to set up and run the backend alongside this frontend for full functio
   <tr>
     <td>Core</td>
     <td>
-      <img src="https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat-square&logo=vue.js" alt="Vue.js 3">
-      <img src="https://img.shields.io/badge/Tailwind%20CSS-3.x-38B2AC?style=flat-square&logo=tailwind-css" alt="Tailwind CSS">
+      <img src="https://img.shields.io/badge/Vue.js-3.x-4FC08D?style=flat&logo=vue.js" alt="Vue.js 3">
+      <img src="https://img.shields.io/badge/Tailwind%20CSS-3.x-38B2AC?style=flat&logo=tailwind-css" alt="Tailwind CSS">
     </td>
   </tr>
   <tr>
     <td>Build Tools</td>
     <td>
-      <img src="https://img.shields.io/badge/Vite-4.x-646CFF?style=flat-square&logo=vite" alt="Vite">
-      <img src="https://img.shields.io/badge/npm-8.x-CB3837?style=flat-square&logo=npm" alt="npm">
+      <img src="https://img.shields.io/badge/Vite-4.x-646CFF?style=flat&logo=vite" alt="Vite">
+      <img src="https://img.shields.io/badge/npm-8.x-CB3837?style=flat&logo=npm" alt="npm">
     </td>
   </tr>
   <tr>
     <td>Routing</td>
     <td>
-      <img src="https://img.shields.io/badge/Vue%20Router-4.x-4FC08D?style=flat-square&logo=vue.js" alt="Vue Router">
+      <img src="https://img.shields.io/badge/Vue%20Router-4.x-4FC08D?style=flat&logo=vue.js" alt="Vue Router">
     </td>
   </tr>
   <tr>
     <td>HTTP Client</td>
     <td>
-      <img src="https://img.shields.io/badge/Axios-1.x-5A29E4?style=flat-square&logo=axios" alt="Axios">
+      <img src="https://img.shields.io/badge/Axios-1.x-5A29E4?style=flat&logo=axios" alt="Axios">
     </td>
   </tr>
   <tr>
     <td>UI Components</td>
     <td>
-      <img src="https://img.shields.io/badge/Custom%20Components-1.0-FF6B6B?style=flat-square" alt="Custom Components">
+      <img src="https://img.shields.io/badge/Custom%20Components-1.0-FF6B6B?style=flat" alt="Custom Components">
     </td>
   </tr>
   <tr>
     <td>PDF Generation</td>
     <td>
-      <img src="https://img.shields.io/badge/html2canvas-1.x-E34F26?style=flat-square" alt="html2canvas">
+      <img src="https://img.shields.io/badge/html2canvas-1.x-E34F26?style=flat" alt="html2canvas">
     </td>
   </tr>
 </table>
