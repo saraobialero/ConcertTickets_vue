@@ -1,4 +1,4 @@
-# 🎨 Ticketstore App for concerts
+# 🎤 Ticketstore App for concerts
 
 <p>
   <a href="https://vuejs.org/" target="_blank">
@@ -15,7 +15,15 @@
   </a>
 </p>
 
-This project showcases a modern, responsive frontend built with Vue.js and styled with Tailwind CSS, offering a sleek user interface for a concert ticket booking application.
+This project showcases a modern, responsive frontend built with Vue.js and styled with Tailwind CSS, offering a sleek user interface for a concert ticket booking application. It is designed to work seamlessly with a pre-existing Spring Boot backend.
+
+## 🔗 Backend Repository
+
+This frontend application is built to interact with a dedicated backend. You can find the backend repository here:
+
+[SpringBoot3.3.1-HibernateDB_Concerts-TicketStore-App](https://github.com/saraobialero/SpringBoot3.3.1-HibernateDB_Concerts-TicketStore-App)
+
+Make sure to set up and run the backend alongside this frontend for full functionality.
 
 ## 📋 Table of Contents
 
@@ -23,9 +31,10 @@ This project showcases a modern, responsive frontend built with Vue.js and style
 2. [Technologies Used](#-technologies-used)
 3. [Quick Start](#-quick-start)
 4. [Project Structure](#-project-structure)
-5. [Customization](#-customization)
-6. [Contributing](#-contributing)
-7. [License](#-license)
+5. [Backend integration](#-backend-integration)
+6. [Customization](#-customization)
+7. [Contributing](#-contributing)
+8. [License](#-license)
 
 ## 🚀 Main Features
 
@@ -176,6 +185,28 @@ src/
 └── main.js
 ```
 
+## 🔌 Backend Integration
+
+This frontend is designed to work with the Spring Boot backend available at [SpringBoot3.3.1-HibernateDB_Concerts-TicketStore-App](https://github.com/saraobialero/SpringBoot3.3.1-HibernateDB_Concerts-TicketStore-App). To integrate with the backend:
+
+1. Ensure the backend server is running.
+2. Configure the backend URL in your frontend environment variables or configuration file.
+3. The `api.js` file handles API calls and authentication with the backend.
+
+```javascript
+// Example of API configuration in api.js
+import axios from 'axios';
+
+const instance = axios.create({
+  baseURL: process.env.VUE_APP_API_URL || 'http://localhost:8080/api',
+  // ... other configurations
+});
+
+// ... rest of the API setup
+```
+
+Make sure to update the `baseURL` to match your backend's URL.
+
 ## 🔐 Authentication and API Calls
 
 This project uses JWT for authentication. The access token is stored in localStorage and automatically included in API calls using an Axios interceptor. The `api.js` utility handles token refresh and API error management.
@@ -202,7 +233,7 @@ Tailwind CSS can be customized in the `tailwind.config.js` file. Add your own co
 
 ## 🤝 Contributing
 
-Contributions are welcome!
+Contributions are welcome! Please ensure that your contributions are compatible with the existing backend structure.
 
 ## 📄 License
 
