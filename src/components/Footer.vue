@@ -59,7 +59,7 @@
 
       <!-- FOOTER COPYRIGHT -->
       <div class="text-custom-xs text-icon-gray">
-        &copy; 2024 ETech All rights reserved.
+        &copy; 2024 MusicDays All rights reserved.
       </div>
     </div>
   </footer>
