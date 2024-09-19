@@ -7,14 +7,13 @@
 
 This project showcases a modern, responsive frontend built with Vue.js and styled with Tailwind CSS, offering a sleek user interface for a concert ticket booking application. It is designed to work seamlessly with a pre-existing Spring Boot backend.
 
-#### 📽️ Demo
+### 📽️ Demo
 
 <img src="src/assets/demo.gif" width="700" alt="Demo">
 
 Here is a demo of the project functionality with the backend operational.
 
 <br>
-<hr>
 
 ## 🔗 Backend Repository
 
